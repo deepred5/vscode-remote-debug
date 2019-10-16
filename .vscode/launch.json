@@ -6,6 +6,15 @@
   "configurations": [
     {
       "type": "node",
+      "request": "attach",
+      "name": "Attach to Remote",
+      "address": "106.13.120.203",
+      "port": 9229,
+      "localRoot": "${workspaceFolder}",
+      "remoteRoot": "/root/app/vscode-remote-debug"
+    },
+    {
+      "type": "node",
       "request": "launch",
       "name": "启动程序",
       "program": "${workspaceFolder}/index.js"
