@@ -1,0 +1,11 @@
+{
+  "apps" : [{
+    "name"       : "myapp",
+    "script"     : "./index.js",
+    "env": {
+      "NODE_ENV": "prod"
+    },
+    "watch":true,
+    "node_args": ["--inspect","--debug=0.0.0.0:9229"]
+  }]
+}

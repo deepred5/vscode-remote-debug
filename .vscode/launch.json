@@ -7,7 +7,7 @@
     {
       "type": "node",
       "request": "attach",
-      "name": "Attach to Remote",
+      "name": "remote启动程序",
       "address": "106.13.120.203",
       "port": 9229,
       "localRoot": "${workspaceFolder}",
@@ -16,7 +16,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "启动程序",
+      "name": "local启动程序",
       "program": "${workspaceFolder}/index.js"
     }
   ]
